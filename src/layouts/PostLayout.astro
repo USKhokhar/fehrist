@@ -1,0 +1,55 @@
+---
+import Icon from "astro-icon";
+import Header from "../components/Header.astro";
+const { entry } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{entry.data.title} | fehrist</title>
+  </head>
+  <body class="w-full h-full bg-background-950">
+    <Header />
+    <a
+      href="/"
+      class="fixed md:left-10 right-5 bottom-3 md:top-20 h-fit flex items-center justify-center gap-1 w-fit hover:no-underline bg-background-500 hover:bg-background-600 text-text-50 p-2 pr-4 rounded-md shadow-md hover:shadow-none"
+    >
+      <Icon name="ic:sharp-arrow-back-ios-new" class="w-3 h-3" />
+       BACK
+    </a>
+    <article
+      class="prose text-white mt-20 max-w-4xl w-[90vw] py-2 px-4 rounded-lg bg-background-900/50 h-full mx-auto"
+    >
+      <div
+        class="border border-t-0 border-l-0 border-r-0 p-0 border-b-2 border-b-text-50"
+      >
+        <h2
+          class="text-2xl mt-0 capitalize text-white font-bold flex items-end justify-start gap-5"
+        >
+          {entry.data.title}
+          <span class="text-white mt-0 text-lg font-medium text-white/50"
+            >{`(${entry.data.genre})`}</span
+          >
+        </h2>
+
+        <div class="w-full flex mt-0 justify-between items-end">
+          <h4 class="text-base text-white/90 font-normal">
+            Author: {entry.data.author}
+          </h4>
+
+          <h4 class="text-base text-white/90 font-normal">
+            Post By: <a
+              class="text-base text-white/90 font-normal hover:no-underline"
+              href={`https://github.com/${entry.data.gh_username}`}
+              target="_blank">{entry.data.postAuthor}</a
+            >
+          </h4>
+        </div>
+      </div>
+      <slot />
+    </article>
+  </body>
+</html>

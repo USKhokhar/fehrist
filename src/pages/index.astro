@@ -1,5 +1,10 @@
 ---
-
+import Banner from "../components/Banner.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import "../global.css";
+import { getCollection } from "astro:content";
+const postEnrty = await getCollection("posts");
 ---
 
 <html lang="en">
@@ -7,10 +12,67 @@
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>hacktoberfest</title>
+    <title>fehrist</title>
   </head>
-  <body>
-    <h1>Hello, hacktoberfest</h1>
+  <body class="w-full h-full bg-background-950">
+    <Header />
   </body>
+  <main class="mt-24 mx-auto w-[95vw]">
+    <article class="p-2 mx-auto max-w-3xl md:block hidden">
+      <Banner />
+    </article>
+    <section
+      class="grid md:grid-cols-2 md:grid-rows-1 grid-cols-1 grid-rows-2 max-w-4xl w-[90vw] mx-auto md:py-2 py-0"
+    >
+      <article>
+        <img
+          src="https://source.unsplash.com/random?books"
+          alt="randome__image__related__to__books"
+          class="md:w-96 mx-auto w-[90vw] aspect-square"
+        />
+      </article>
+
+      <article
+        class="content__container max-h-96 py-4 md:py-0 overflow-y-scroll"
+      >
+        <ul>
+          {
+            postEnrty.map((post) => {
+              return (
+                <li>
+                  <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+                </li>
+              );
+            })
+          }
+        </ul>
+      </article>
+    </section>
+  </main>
+  <Footer />
 </html>
+
+<style>
+  ul {
+    list-style: disc;
+    padding-left: 1rem;
+  }
+
+  ul li {
+    @apply capitalize text-lg font-heading text-background-50 hover:text-background-300 hover:underline;
+  }
+
+  .content__container::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .content__container ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+
+  .content__container {
+    scrollbar-width: thin;
+
+    scrollbar-color: transparent transparent;
+  }
+</style>
