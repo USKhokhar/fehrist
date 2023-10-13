@@ -40,6 +40,11 @@ Once everything is setup, you are good to go with following steps:
 ```bash
     git clone https://github.com/{YOUR_GITHUB_USERNAME}/fehrist.git
 ```
+- After cloning, do not forget to create a new branch for your changes, you can do so by running:
+
+```bash
+    git checkout -b YOUR_BRANCH_NAME
+```
 
 
 ### 4. Install Dependencies ⬇ 
@@ -89,7 +94,7 @@ Once everything is setup, you are good to go with following steps:
 ```bash
     git add .
     git commit -m "YOUR_NAME: YOUR_BOOK_TITLE"
-    git push
+    git push -u origin YOUR_BRANCH_NAME
 ```
 
 - Now, go back to your GitHub fork and open a Pull Request (PR). We'll review your contribution and, if all is well, merge it into the main project.
