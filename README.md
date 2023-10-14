@@ -37,3 +37,14 @@ Get ready to dive into the world of books and share your insights with the world
 Join us and let's make Fehrist the ultimate hub for book synopses!
 
 Happy reading and happy contributing! 📚🖋️
+
+---
+CONTRIBUTORS
+---
+
+<a href="https://github.com/uskhokhar/fehrist/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=uskhokhar/fehrist" />
+</a>
+
+---
+
