@@ -32,6 +32,7 @@ Once everything is setup, you are good to go with following steps:
 ### 1. Create an Issue 📜
 - Head over to the [Main Repo Issues](https://github.com/USKhokhar/fehrist/issues) and create a new issue to add a new post.
 - Once the issue is assigned to you, you may proceed further.
+> For hacktoberfest participants, make sure you add `hacktoberfest` label to your issue, to get your issue/PR get counted for the same.
 
 ### 2. Fork and Clone 🍴 
 - First, fork the repository to your GitHub account. This will create your personal copy.
