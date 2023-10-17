@@ -1,5 +1,5 @@
 ---
-title: Inside Chanakya's Mind: Aanvikshiki And the Art of Thinking
+title: Inside Chanakya's Mind Aanvikshiki And the Art of Thinking
 author: Radhakrishnan Pillai
 postAuthor: Tanishka Agarwal
 genre: Non-fiction
