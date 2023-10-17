@@ -1,3 +1,11 @@
+---
+title: Inside Chanakya's Mind Aanvikshiki And the Art of Thinking
+author: Radhakrishnan Pillai
+postAuthor: Tanishka Agarwal
+genre: Non-fiction
+gh_username: Tanishka0067
+---
+
 Aanvikshiki is the Sanskrit word for the science of thinking. In his book "Inside Chanakya's Mind: Aanvikshiki and the Art of Thinking", Radhakrishnan Pillai explores the thinking process of Chanakya, one of the greatest thinkers and strategists of all time.
 
 Pillai argues that Chanakya's success was due in large part to his ability to think clearly and strategically. He was able to see through the complex political landscape of his time and develop innovative solutions to complex problems.
