@@ -3,6 +3,15 @@
 **Fehrist** (فهرست) is more than just an open-source catalogue; it's a journey through the treasure trove of knowledge, an ode to the world of literature. The word "Fehrist" itself, originating from Arabic, means a "comprehensive and organized list." Just as the word suggests, this project aims to bring together a wealth of book synopses, creating a comprehensive and organized index of literary insights.
 
 ---
+
+<div align="center" display="flex">
+  
+![Maintainer](https://img.shields.io/badge/maintainer-USKhokhar-blue)
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![GitHub forks](https://badgen.net/github/forks/USKhokhar/fehrist/)](https://GitHub.com/USKhokhar/fehrist/network/)
+[![GitHub stars](https://badgen.net/github/stars/USKhokhar/fehrist)](https://GitHub.com/USKhokhar/fehrist/stargazers/)
+
+</div>
 <div display="flex" align="center">
   <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/uskhokhar/fehrist" />
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/uskhokhar/fehrist" />
