@@ -2,6 +2,23 @@
 
 **Fehrist** (فهرست) is more than just an open-source catalogue; it's a journey through the treasure trove of knowledge, an ode to the world of literature. The word "Fehrist" itself, originating from Arabic, means a "comprehensive and organized list." Just as the word suggests, this project aims to bring together a wealth of book synopses, creating a comprehensive and organized index of literary insights.
 
+---
+<div display="flex" align="center">
+  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/uskhokhar/fehrist" />
+  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/uskhokhar/fehrist" />
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/uskhokhar/fehrist" />
+  <img alt="Github License" src="https://img.shields.io/github/license/uskhokhar/fehrist" />
+  <img alt="GitHub Closed Issues" src="https://img.shields.io/github/issues-closed/uskhokhar/fehrist" />
+  <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/uskhokhar/fehrist" />
+  <img alt="" src="https://img.shields.io/github/repo-size/uskhokhar/fehrist" />
+  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/uskhokhar/fehrist" />
+  <img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/uskhokhar/fehrist" />
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/uskhokhar/fehrist" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/uskhokhar/fehrist" />
+</div>
+
+---
+
 ## About Fehrist
 
 Fehrist is designed to be your virtual bookshelf where contributors from all corners of the globe can add book synopses as Markdown files. It's not just a platform; it's a community-driven initiative to make literary knowledge accessible to everyone.
