@@ -1,5 +1,5 @@
 ---
-title: The Children Of God-The inside story
+title: 'The Children Of God-The inside story'
 author: Deborah davis
 postAuthor: Mohit Bharti
 genre: non-fiction
