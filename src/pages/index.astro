@@ -14,42 +14,42 @@ const postEnrty = await getCollection("posts");
     <meta name="viewport" content="width=device-width" />
     <title>fehrist</title>
   </head>
-  <body class="w-full h-full bg-background-950">
+  <body class="w-full h-full bg-background-950 min-h-screen flex flex-col">
     <Header />
-  </body>
-  <main class="mt-24 mx-auto w-[95vw]">
-    <article class="p-2 mx-auto max-w-3xl md:block hidden">
-      <Banner />
-    </article>
-    <section
-      class="grid md:grid-cols-2 md:grid-rows-1 grid-cols-1 grid-rows-2 max-w-4xl w-[90vw] mx-auto md:py-2 py-0"
-    >
-      <article>
-        <img
-          src="https://source.unsplash.com/random?books"
-          alt="randome__image__related__to__books"
-          class="md:w-96 mx-auto w-[90vw] aspect-square"
-        />
+    <main class="mt-24 mx-auto w-[95vw] flex-1">
+      <article class="p-2 mx-auto max-w-3xl md:block hidden">
+        <Banner />
       </article>
-
-      <article
-        class="content__container max-h-96 py-4 md:py-0 overflow-y-scroll"
+      <section
+        class="grid md:grid-cols-2 md:grid-rows-1 grid-cols-1 grid-rows-2 max-w-4xl w-[90vw] mx-auto md:py-2 py-0"
       >
-        <ul>
-          {
-            postEnrty.map((post) => {
-              return (
-                <li>
-                  <a href={`/posts/${post.slug}`}>{post.data.title}</a>
-                </li>
-              );
-            })
-          }
-        </ul>
-      </article>
-    </section>
-  </main>
-  <Footer />
+        <article>
+          <img
+            src="https://source.unsplash.com/random?books"
+            alt="randome__image__related__to__books"
+            class="md:w-96 mx-auto w-[90vw] aspect-square"
+          />
+        </article>
+
+        <article
+          class="content__container max-h-96 py-4 md:py-0 overflow-y-scroll"
+        >
+          <ul>
+            {
+              postEnrty.map((post) => {
+                return (
+                  <li>
+                    <a href={`/posts/${post.slug}`}>{post.data.title}</a>
+                  </li>
+                );
+              })
+            }
+          </ul>
+        </article>
+      </section>
+    </main>
+    <Footer />
+  </body>
 </html>
 
 <style>
